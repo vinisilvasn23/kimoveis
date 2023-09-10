@@ -7,7 +7,7 @@
     "typeorm": "typeorm-ts-node-commonjs",
     "dev": "tsnd --ignore-watch node_modules --rs --cls src/server.ts",
     "build": "tsc",
-    "start": "cd src/ && ls"
+    "start": "node dist/server.ts"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
