@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.schedulesRepo = exports.addressRepo = exports.realEstateRepo = exports.categoryRepo = exports.userRepo = void 0;
+const data_source_1 = require("./data-source");
+const entities_1 = require("./entities");
+exports.userRepo = data_source_1.AppDataSource.getRepository(entities_1.User);
+exports.categoryRepo = data_source_1.AppDataSource.getRepository(entities_1.Category);
+exports.realEstateRepo = data_source_1.AppDataSource.getRepository(entities_1.RealEstate);
+exports.addressRepo = data_source_1.AppDataSource.getRepository(entities_1.Address);
+exports.schedulesRepo = data_source_1.AppDataSource.getRepository(entities_1.Schedule);

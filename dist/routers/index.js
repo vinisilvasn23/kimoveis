@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.schedulesRouter = exports.realEstateRouter = exports.categoriesRouter = exports.loginRouter = exports.userRouter = void 0;
+const users_router_1 = require("./users.router");
+Object.defineProperty(exports, "userRouter", { enumerable: true, get: function () { return users_router_1.userRouter; } });
+const login_router_1 = require("./login.router");
+Object.defineProperty(exports, "loginRouter", { enumerable: true, get: function () { return login_router_1.loginRouter; } });
+const categories_router_1 = require("./categories.router");
+Object.defineProperty(exports, "categoriesRouter", { enumerable: true, get: function () { return categories_router_1.categoriesRouter; } });
+const realEstate_router_1 = require("./realEstate.router");
+Object.defineProperty(exports, "realEstateRouter", { enumerable: true, get: function () { return realEstate_router_1.realEstateRouter; } });
+const schedules_router_1 = require("./schedules.router");
+Object.defineProperty(exports, "schedulesRouter", { enumerable: true, get: function () { return schedules_router_1.schedulesRouter; } });
